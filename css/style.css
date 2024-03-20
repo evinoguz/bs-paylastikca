@@ -1,0 +1,49 @@
+/* Google Font Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Hero */
+.img-slider {
+    height: 600px;
+}
+body{
+    padding-top: 50px;
+    font-family: "Raleway", sans-serif;
+}
+/* Hakkımızda */
+.about-us{
+    background-color: #f2f2f2;
+}
+.bracket{
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+.icon-bracket{
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+/* Ekibimiz */
+.team img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* Galeri */
+.gallery{
+    background-color: #f2f2f2;
+}
+.figure:hover{
+    opacity: 0.8;
+}
+/* Contact */
+.contact textarea{
+    resize: none;
+}
